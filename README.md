@@ -1,4 +1,4 @@
-# [PROJECT NAME] — AI-Integrated Support Resolution Engine
+# PORTFOLIO — AI-Integrated Support Resolution Engine
 *A case study in replacing templated chatbot automation with context-aware AI that resolves the edge cases off-the-shelf tools escalate.*
 
 > **I build custom AI-integrated React UIs for high-growth platforms like Flyrank — architecting systems that resolve complex customer support edge cases that off-the-shelf chatbots fail to handle.** By replacing rigid, templated automation with deeply integrated, context-aware AI, I deliver measurable reductions in human-escalated support tickets.
