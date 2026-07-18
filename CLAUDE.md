@@ -53,3 +53,8 @@ Every change should be evaluated against one question: *does this make the escal
 - Don't build generic chatbot UI patterns (FAQ trees, canned quick-replies) — that's the thing this project explicitly replaces. If Claude Code suggests it, push back.
 - Don't let the demo bury the CTA. The "Book a discovery call" action must remain reachable within one scroll/click from any page, including the live demo.
 - Don't commit real customer data, transcripts, or PII under any circumstance — see `.gitignore`.
+
+### AI Code Generation Rules
+1. **Plan Before Code:** For any feature generation exceeding 50 lines of code, the AI must output a 3-bullet architecture plan and await explicit user confirmation before writing implementation logic.
+2. **Strict Verification:** Every new UI component or utility function must be accompanied by corresponding unit/integration tests covering at least one happy path and two edge cases.
+3. **Accessibility Baseline:** All interactive UI components (forms, buttons, modals) must include explicit semantic markup and keyboard navigation vectors (`tabIndex`, `aria-*` attributes) by default.
